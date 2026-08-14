@@ -1,0 +1,6 @@
+# dsh-command-douyin bundle patch: one insert over the composed profile tree.
+# The plugin registers the /douyin slash command, which opens the Douyin web
+# app (https://www.douyin.com/?recommend=1) in the default browser.
+- insert:
+    - id: command-douyin
+      name: 'dsh-command-douyin'
